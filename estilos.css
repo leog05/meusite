@@ -1,0 +1,130 @@
+*{
+	margin:0; /* zerando os preenchimentos e margens da página*/
+	padding:0;
+}
+#container{    
+	margin:50px;	/*adicionando margem geral em todosos lados da div principal*/
+}
+#cabecalho{
+	text-align:center; /*alinhando ao centro a logo*/
+	padding-bottom: 50px; /*adicionando um preenchimento  de 50px abaixo da logo*/
+}
+#menu{
+	border:1px solid black;
+	border-radius:20px; /*arredondando o menu*/
+	height:65px; /*aumentando a altura do menu principal*/
+	text-align:center;  /*alinhamento dos itens do menu principal de forma centralizada*/
+	background-color:#2E8B57;;
+}
+#menu li{
+	list-style-type:none; /*retirando os marcadores do menu*/
+	display:inline; /*transformando os itens do menu para o formato horizontal*/
+}
+#menu a{
+	font-size:25px;/*alterando o tamanho da fonte do hiperlink*/
+	color:white; /*alterando a cor do hiperlink*/
+	text-decoration:none; /*retirando o sublinhado do hiperlink*/
+	padding:10px 20px; /*aumentando a espessura dos hiperlinks*/
+	margin: 0 30px 0 30px; /*distanciando os hiperlinks*/
+	line-height:65px; /*centralizando verticalmente os hiperlinks*/	
+}
+#menu a:hover{
+	border: 2px solid white; /*adicionando uma borda branca quando passar o mouse em cima dos hiperlinks*/
+	border-radius:10px; /*arredondando as bordas dos hiperlinks*/
+}
+#carrossel{
+	
+}
+#conteudo{
+	padding:10px 0px;
+	display:grid; /*transformando o conteúdo em uma tabela*/
+	grid-template-columns:32.5% 32.5% 32.5%; /*dividindo a grid em 3 colunas*/
+	grid-gap:15px; /* adicionando um espaço entre as colunas*/
+}
+#c1{ 
+    padding:10px;
+	background-color:#2E8B57;;
+	border-radius:10px;
+	color:white;
+}
+#c2{
+	padding:10px;
+	background-color:#2E8B57;;
+	border-radius:10px;
+	color:white;
+}
+#c3{
+	padding:10px;
+	background-color:#2E8B57;
+	border-radius:10px;
+	color:white;
+}
+.img_conteudo{
+	width:100%;
+	height:200px;
+	border-radius:10px; /*arredondando as imagens do conteudo*/
+}
+.p_conteudo{
+	text-align:justify; /*alinhamento justificado do texto*/
+	font-family:tahoma;
+}
+.h2_conteudo{
+	text-align:center;
+	font-family:tahoma;
+}
+#galeria{
+	background-color:#2E8B57;/*inserindo uma cor de fundo na galeria*/
+	display:grid;/*transformando a div da galeria em uma tabela*/
+	grid-template-columns:19.5% 19.5% 19.5% 19.5% 19.5%; /*dividindo em 5 colunas*/
+	grid-gap:0.62%;/*inserindo um espaço entre as colunas*/
+	padding-top:70px;/*adicionou um preenchimento no topo da galeria*/
+	padding-bottom:70px;/*adicionou um preenchimento na parte debaixo da galeria*/
+}
+.img_galeria{ /*criando uma classe para padronizar as imagens da galeria*/ 
+	width:100%;/*tamanho horizontal da imagem*/
+	height:150px;/* a altura da imagem*/
+}
+.img_galeria:hover{/*quando passar o mouse em cima das imagens da galeria*/
+	box-shadow:10px 5px 10px black;/*inserir uma sombra na imagem*/
+}
+#jumbotron{
+	text-align:center;/*centralizando todo o conteúdo da div*/
+	padding:50px 250px;/*adicionando preenchimento em todos os lados da div*/
+}
+#jumbotron p{/*formatando o parágrafo do jumbotron*/
+	font-family:calibri;
+	font-size:20px;
+	color:#666;
+}
+.button_jumbo{
+	padding:10px 70px;
+	background-color:#3CB371;
+	font-family: calibri;
+	color:white;
+	font-size:20px;
+	border:none;/*retirando as bordas do botão*/
+	border-radius:10px;/*arredondando o botão*/
+}
+#jumbotron button:hover{/*quando passar o mouse em cima do botão*/
+	background-color:#4F4F4F;
+	transition:0.3s
+}
+#rodape{
+	padding:50px 150px;
+	background-color:#2E8B57;
+	color:white;
+	display:grid;
+	grid-template-columns:30% 30% 30%;
+	grid-gap:10%;
+}
+#rodape a{
+	text-decoration:none;
+	color:white;
+}
+#rodape a:hover{
+	color:blue;
+}
+.img_rodape{
+	width:250px;
+	height:100px;
+}
